@@ -1,0 +1,1008 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "versionFirst": "4.9.5",
+    "versionPublish": "4.9.5",
+    "name": "Cerca Parola Beach Resort",
+    "theme": {
+      "name": "purity",
+      "title": "PurityM",
+      "styling": {},
+      "additionalSetColors": [
+        "#061806",
+        "#060b1b",
+        "#8c846f"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "siteFonts": [],
+    "uniqCompNum": 27,
+    "screenshot": "screenshot.png",
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": "",
+    "siteUrl": "",
+    "sitemapSwitcherAuto": "on",
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
+    "robotsSwitcher": "on",
+    "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
+    "gdpr": "By continiung you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {
+              "font-size": "24px",
+              "font-family": "'Playfair Display', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Playfair+Display:400,700&subset=latin,cyrillic"
+            },
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "transparent": true,
+            "bgColor": "#ffffff",
+            "fontSize": 1,
+            "fontName": {},
+            "fontColor": "#000000"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Overview</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Features</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Host anywhere</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Help</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-122x81.jpg",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "",
+              "title": ""
+            }
+          },
+          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">CERCAS PAROLA</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-n"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            "H1": {
+              "color": "#fff8e0",
+              "text-align": "left",
+              "font-size": "80px",
+              "font-family": "'Playfair Display', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Playfair+Display:400,700&subset=latin,cyrillic"
+            },
+            "B": {
+              "color": "#0275d8"
+            },
+            "P": {
+              "color": "#060b1b",
+              "font-size": "30px",
+              "text-align": "right"
+            }
+          },
+          "_anchor": "header1-1",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1274.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff8e0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": 0.5
+          },
+          "title": "Welcome To <br>Cerca Parola<br>Beach Resort",
+          "text": "Brgy. Malabrigo, Lobo Batangas\n<br>Lobo, Batangas, Philippines",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">Download Now</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\">Learn More</a>"
+        },
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_params": {
+            "autoplay": true,
+            "fullScreen": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#ffffff",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/mbr-1920x1280.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": false,
+                "showTitle": true,
+                "title": "Slide 1",
+                "contentAlign": "right",
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/mbr-1920x1440.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "title": "Slide 1",
+                "contentAlign": "right",
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/maxresdefault-1280x720.jpg",
+                "active": true,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "title": "Slide 1",
+                "contentAlign": "right",
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/45119293-559242421182095-1360578740962197504-n-960x720-800x600.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": false,
+                "showTitle": true,
+                "title": "Slide 1",
+                "contentAlign": "right",
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/53744980-627168411056162-3463567309459685376-n-960x720.jpg",
+                "active": true,
+                "showButtons": true,
+                "showText": false,
+                "showTitle": true,
+                "title": "Slide 1",
+                "contentAlign": "right",
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              }
+            ]
+          },
+          "articleLayout": false,
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_anchor": "slider-q"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "showBullets": true,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#efefef",
+            "images": [
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/52541581-2495285463832962-6942555333923438592-n-1-960x720-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/52541581-2495285463832962-6942555333923438592-n-1-960x720.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/45119293-559242421182095-1360578740962197504-n-960x720-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/45119293-559242421182095-1360578740962197504-n-960x720.jpg",
+                "alt": "",
+                "title": "",
+                "active": true
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/36884791-480356282404043-4473540259367354368-n-720x540-720x540.jpg",
+                "image": "@PROJECT_PATH@/assets/images/36884791-480356282404043-4473540259367354368-n-720x540.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/cerca-960x720-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/cerca-960x720.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/17760077-281126135660393-1598905106961248881-n-960x720-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/17760077-281126135660393-1598905106961248881-n-960x720.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/17796377-281126348993705-4920236275032584622-n-960x720-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/17796377-281126348993705-4920236275032584622-n-960x720.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/17554080-277469686026038-5121219239272077075-n-960x720-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/17554080-277469686026038-5121219239272077075-n-960x720.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/17904014-286415551798118-6602054159595338828-n-960x720-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/17904014-286415551798118-6602054159595338828-n-960x720.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/45114757-559242394515431-3014782835216089088-n-960x720-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/45114757-559242394515431-3014782835216089088-n-960x720.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/31919560-440487423057596-2856903535381970944-n-960x720-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/31919560-440487423057596-2856903535381970944-n-960x720.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/img3-960x720-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img3-960x720.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/img1-960x720-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img1-960x720.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/17799409-281126225660384-596171539983839789-n-960x720-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/17799409-281126225660384-596171539983839789-n-960x720.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/17795779-281126325660374-5651628163765287416-n-960x720-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/17795779-281126325660374-5651628163765287416-n-960x720.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/img6-960x720-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img6-960x720.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/18664297-300871783685828-7582135965220672574-n-960x720-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/18664297-300871783685828-7582135965220672574-n-960x720.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              }
+            ]
+          },
+          "_anchor": "gallery1-4",
+          "articleLayout": false
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_styles": {
+            "H4": {
+              "font-size": "22px"
+            }
+          },
+          "_anchor": "features1-i",
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showCaptions": false,
+            "showButtons": false,
+            "paddingTop": 3,
+            "paddingBottom": "0",
+            "columns": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/45119293-559242421182095-1360578740962197504-n-600x450.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title1": "12 Beach front airconditioned rooms with 2 queen beds each, CR/shower",
+          "caption1": "Bootstrap 3 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/36815026-480356222404049-2290126143329665024-n-600x450.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title2": "Adult &amp; kids swimming pool",
+          "caption2": "One of Bootstrap 3's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/18664297-300871783685828-7582135965220672574-n-600x450.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title3": "Mini Resto",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/18581858-300871810352492-4989704251252519109-n-600x450.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title4": "Common cooking area",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_anchor": "features1-j",
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showCaptions": true,
+            "showButtons": false,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "columns": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/17796500-281127982326875-4831242928397382453-n-600x450.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title1": "Cottage<br><br>",
+          "caption1": "1 small 8pax\n<br>2 medium 12pax\n<br>1 mediumX 16pax\n<br>1 big 20pax",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/36803919-480355729070765-8312893546252206080-n-600x450.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title2": "Hut",
+          "caption2": "1 beside the pool 3pax\n<br>2 with fan room &nbsp;4pax\n<br>3 beside the pool 4pax",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/17903997-286415478464792-5679470376983547184-n-600x450.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title3": "Table Pala Pala",
+          "caption3": "3 long table &nbsp;16pax\n<br>4 small 6pax",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/36796740-480356255737379-8949096666577764352-n-600x450.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title4": "Common Showers/CR,",
+          "caption4": ".",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "_styles": {
+            "H4": {
+              "text-align": "right"
+            },
+            "P": {
+              "font-size": "22px"
+            }
+          }
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": false,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": 50,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/18581455-300871663685840-5341197559378212831-n-960x720.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Big Parking Area",
+          "text": "<p>Mobirise helps you cut down development time by providing you with a flexible website editor.</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-p",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "60px"
+            }
+          }
+        },
+        {
+          "items": [
+            {
+              "authorName": "Nim Pascua Distor",
+              "authorBio": "",
+              "text": "<i>\"I've been here many times. Since when they started (no pool). They have grown not just a typical resort in Malabrigo, they offer a super clean place to enjoy and unwind. The management / owners and staff were very accomodating as well.\n</i><div><i>\n</i></div><div><i>Truly a great experience.\n</i></div><div><i>\n</i></div><div><i>Extending this experience to my family friends, relatives and it can be you too.\"</i></div>"
+            },
+            {
+              "authorName": "Cherry May Montecino Alayon",
+              "authorBio": "User",
+              "text": "<i>\"Been here for just less than 5 hours but really enjoyed it. No white sand but pebbles all around, making it more special. If you’re done with the fun in the beach, they also have a nice pool to offer. Over all the place is very clean, the waters both in the sea and pool are crystal clear and the staff are very accommodating. It’s also a walk away from Malabrigo lighthouse if you like some historical stuff. So if you’re tired of crowded beach resorts, then this is a perfect getaway!\"</i>"
+            },
+            {
+              "authorName": "Meden Castro Catong",
+              "authorBio": "User",
+              "text": "<i>\"Been here w/ family last April 28 &amp; 29 super like the place with it's crystal clear water..best place to relax..\n</i><div><i>Been lots of beaches like, Puerto Galera in Mindoro, Samal in Davao, Saranggani in Cotabato, Sipalay in Negros..but for me Lobo is really diff. Why go that far eh meron pla mas mganda na malapit pa..Love beaches na d ganun ka crowded and maingay and found it in Lobo.\"</i></div>"
+            },
+            {
+              "authorName": "Margaret Deles",
+              "authorBio": "Developer",
+              "text": "<i>\"I love this place. It's super clean. The bathroom is well maintained. They have sabitan there. The sheets are clean, the pool is clean, the place looks good. The owners were very welcoming and of course the food was fabulous! It's worth every penny. You guys should check this place out!\"</i>"
+            },
+            {
+              "authorName": "Michelle Quesada",
+              "authorBio": "Developer",
+              "text": "<em>\"The resort was so clean, calm and relaxing. Beach water and the Pool was clear and well-maintained. Plus everyone, from the owner, Ms Julie and the staff, are all so Welcoming, accommodating and fun. They also cook delicious foods. You can also ask for Service massage, we would recommend lalaine, best massage ever! 😘. Thank you Ms Julie and the staff. The trip was Overall, Excellent! \"</em>"
+            },
+            {
+              "authorName": "Chesca Abando",
+              "authorBio": "Developer",
+              "text": "<em>“I travel often and make sure I look for a comfortable stay. Batangas is a nearby getaway for me when I am busy. Surprised by the scenery of Barangay Malabrigo and this resort which is the best in the area. I loved my stay here from how the bathroom and the bedroom is cleaned and well maintained. The Lutong bahay the restauarant serves. Plus the owners are awesome too! They are both hands on entertaining guests. This is some place i'd be visiting again... Love it!”</em>"
+            },
+            {
+              "authorName": "John Smith",
+              "authorBio": "Developer",
+              "text": "<em>“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aspernatur, voluptatibus, atque, tempore molestiae sed modi a ullam sint adipisci rerum vel praesentium voluptas deserunt veniam provident culpa sequi veritatis.”</em>"
+            },
+            {
+              "authorName": "John Smith",
+              "authorBio": "Developer",
+              "text": "<em>“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aspernatur, voluptatibus, atque, tempore molestiae sed modi a ullam sint adipisci rerum vel praesentium voluptas deserunt veniam provident culpa sequi veritatis.”</em>"
+            },
+            {
+              "authorName": "John Smith",
+              "authorBio": "Developer",
+              "text": "<em>“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aspernatur, voluptatibus, atque, tempore molestiae sed modi a ullam sint adipisci rerum vel praesentium voluptas deserunt veniam provident culpa sequi veritatis.”</em>"
+            },
+            {
+              "authorName": "John Smith",
+              "authorBio": "Developer",
+              "text": "<em>“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aspernatur, voluptatibus, atque, tempore molestiae sed modi a ullam sint adipisci rerum vel praesentium voluptas deserunt veniam provident culpa sequi veritatis.”</em>"
+            },
+            {
+              "authorName": "John Smith",
+              "authorBio": "Developer",
+              "text": "<em>“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aspernatur, voluptatibus, atque, tempore molestiae sed modi a ullam sint adipisci rerum vel praesentium voluptas deserunt veniam provident culpa sequi veritatis.”</em>"
+            },
+            {
+              "authorName": "John Smith",
+              "authorBio": "Developer",
+              "text": "<em>“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aspernatur, voluptatibus, atque, tempore molestiae sed modi a ullam sint adipisci rerum vel praesentium voluptas deserunt veniam provident culpa sequi veritatis.”</em>"
+            },
+            {
+              "authorName": "John Smith",
+              "authorBio": "Developer",
+              "text": "<em>“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aspernatur, voluptatibus, atque, tempore molestiae sed modi a ullam sint adipisci rerum vel praesentium voluptas deserunt veniam provident culpa sequi veritatis.”</em>"
+            },
+            {
+              "authorName": "John Smith",
+              "authorBio": "Developer",
+              "text": "<em>“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aspernatur, voluptatibus, atque, tempore molestiae sed modi a ullam sint adipisci rerum vel praesentium voluptas deserunt veniam provident culpa sequi veritatis.”</em>"
+            },
+            {
+              "authorName": "John Smith",
+              "authorBio": "Developer",
+              "text": "<em>“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aspernatur, voluptatibus, atque, tempore molestiae sed modi a ullam sint adipisci rerum vel praesentium voluptas deserunt veniam provident culpa sequi veritatis.”</em>"
+            },
+            {
+              "authorName": "John Smith",
+              "authorBio": "Developer",
+              "text": "<em>“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aspernatur, voluptatibus, atque, tempore molestiae sed modi a ullam sint adipisci rerum vel praesentium voluptas deserunt veniam provident culpa sequi veritatis.”</em>"
+            },
+            {
+              "authorName": "John Smith",
+              "authorBio": "Developer",
+              "text": "<em>“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aspernatur, voluptatibus, atque, tempore molestiae sed modi a ullam sint adipisci rerum vel praesentium voluptas deserunt veniam provident culpa sequi veritatis.”</em>"
+            },
+            {
+              "authorName": "John Smith",
+              "authorBio": "Developer",
+              "text": "<em>“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aspernatur, voluptatibus, atque, tempore molestiae sed modi a ullam sint adipisci rerum vel praesentium voluptas deserunt veniam provident culpa sequi veritatis.”</em>"
+            },
+            {
+              "authorName": "John Smith",
+              "authorBio": "Developer",
+              "text": "<em>“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aspernatur, voluptatibus, atque, tempore molestiae sed modi a ullam sint adipisci rerum vel praesentium voluptas deserunt veniam provident culpa sequi veritatis.”</em>"
+            },
+            {
+              "authorName": "John Smith",
+              "authorBio": "Developer",
+              "text": "<em>“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aspernatur, voluptatibus, atque, tempore molestiae sed modi a ullam sint adipisci rerum vel praesentium voluptas deserunt veniam provident culpa sequi veritatis.”</em>"
+            },
+            {
+              "authorName": "John Smith",
+              "authorBio": "Developer",
+              "text": "<em>“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aspernatur, voluptatibus, atque, tempore molestiae sed modi a ullam sint adipisci rerum vel praesentium voluptas deserunt veniam provident culpa sequi veritatis.”</em>"
+            }
+          ],
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "_styles": {
+            ".card-footer > div": {
+              "color": "#000000"
+            }
+          },
+          "testimonial": [
+            {
+              "authorName": "Nim Pascua Distor",
+              "authorBio": "",
+              "text": "<i>\"I've been here many times. Since when they started (no pool). They have grown not just a typical resort in Malabrigo, they offer a super clean place to enjoy and unwind. The management / owners and staff were very accomodating as well.\n</i><div><i>\n</i></div><div><i>Truly a great experience.\n</i></div><div><i>\n</i></div><div><i>Extending this experience to my family friends, relatives and it can be you too.\"</i></div>"
+            },
+            {
+              "authorName": "Cherry May Montecino Alayon",
+              "authorBio": "User",
+              "text": "<i>\"Been here for just less than 5 hours but really enjoyed it. No white sand but pebbles all around, making it more special. If you’re done with the fun in the beach, they also have a nice pool to offer. Over all the place is very clean, the waters both in the sea and pool are crystal clear and the staff are very accommodating. It’s also a walk away from Malabrigo lighthouse if you like some historical stuff. So if you’re tired of crowded beach resorts, then this is a perfect getaway!\"</i>"
+            },
+            {
+              "authorName": "Meden Castro Catong",
+              "authorBio": "User",
+              "text": "<i>\"Been here w/ family last April 28 &amp; 29 super like the place with it's crystal clear water..best place to relax..\n</i><div><i>Been lots of beaches like, Puerto Galera in Mindoro, Samal in Davao, Saranggani in Cotabato, Sipalay in Negros..but for me Lobo is really diff. Why go that far eh meron pla mas mganda na malapit pa..Love beaches na d ganun ka crowded and maingay and found it in Lobo.\"</i></div>"
+            },
+            {
+              "authorName": "Margaret Deles",
+              "authorBio": "Developer",
+              "text": "<i>\"I love this place. It's super clean. The bathroom is well maintained. They have sabitan there. The sheets are clean, the pool is clean, the place looks good. The owners were very welcoming and of course the food was fabulous! It's worth every penny. You guys should check this place out!\"</i>"
+            },
+            {
+              "authorName": "Michelle Quesada",
+              "authorBio": "Developer",
+              "text": "<em>\"The resort was so clean, calm and relaxing. Beach water and the Pool was clear and well-maintained. Plus everyone, from the owner, Ms Julie and the staff, are all so Welcoming, accommodating and fun. They also cook delicious foods. You can also ask for Service massage, we would recommend lalaine, best massage ever! 😘. Thank you Ms Julie and the staff. The trip was Overall, Excellent! \"</em>"
+            },
+            {
+              "authorName": "Chesca Abando",
+              "authorBio": "Developer",
+              "text": "<em>“I travel often and make sure I look for a comfortable stay. Batangas is a nearby getaway for me when I am busy. Surprised by the scenery of Barangay Malabrigo and this resort which is the best in the area. I loved my stay here from how the bathroom and the bedroom is cleaned and well maintained. The Lutong bahay the restauarant serves. Plus the owners are awesome too! They are both hands on entertaining guests. This is some place i'd be visiting again... Love it!”</em>"
+            }
+          ],
+          "_anchor": "testimonials1-7",
+          "_params": {
+            "showTitle": true,
+            "showName": true,
+            "showBio": false,
+            "count": "6",
+            "paddingTop": "1",
+            "paddingBottom": "2",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1440x1080.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "overlay": true,
+            "overlayColor": "#abdbf2",
+            "overlayOpacity": "0.4"
+          },
+          "header": "What Our Fantastic Clients say"
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center"
+            },
+            ".lead P": {
+              "font-size": "30px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButton": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f8f8f6",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "About Us",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>A new resort at Brgy. Malabrigo, Lobo, Batangas w/12 aircon rooms, resto, pool &amp; cottages. Snorkel at marine sanctuary, hike at parola(light house) &amp; kayak</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">See All Templates</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-o"
+        },
+        {
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "socialFacebook": true,
+            "postsNumber": "9",
+            "socialGoogle": false,
+            "socialDisqus": false,
+            "shortName": "",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/comments_bg.jpg",
+            "overlay": true,
+            "overlayColor": "#7e9b9f",
+            "overlayOpacity": 0.6
+          },
+          "innerText": "<div class=\"facebookPlaceholder\" data-numposts=\"\"><h2>FACEBOOK COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@PROJECT_PATH@/assets/images/facebook-comments.jpg\"></div>",
+          "innerTextGoogle": "<div class=\"googlePlaceholder\" data-numposts=\"\"><h2>GOOGLE COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/google-comments.jpg\"></div>",
+          "innerTextDisqus": "<div class=\"disqusPlaceholder\" data-numposts=\"\"><h2>DISQUS COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/disqus-comments.jpg\"></div>",
+          "alias": "facebook-comments",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "facebook-comments-block",
+          "_anchor": "facebook-comments-block-m"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-9",
+          "_params": {
+            "showTitle": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Contact Form",
+          "form": {
+            "action": "remus_duenas@yahoo.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Contact Us</a>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map1",
+          "_anchor": "map1-a",
+          "_params": {
+            "googleMap": {
+              "address": "Cerca Parola Beach Resort, Lobo, Batangas",
+              "placeId": "ChIJQ4X6NvQfvTMRHMvNYxWlh5Y",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          }
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-b",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#8c846f",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo-265x176.jpg",
+              "width": 265,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>Brgy. Malabrigo, Lobo Batangas\n<br>Lobo, Batangas<br>",
+          "text2": "<strong>Contacts</strong><br>\nEmail: remus_duenas@yahoo.com<br>\nPhone: +639917 823 6847<br>",
+          "text3": "<ul></ul>",
+          "_styles": {
+            "P": {
+              "text-align": "right",
+              "font-size": "21px"
+            }
+          }
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-d",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#FFF8E0",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "text": "Follow Us",
+          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/cercaparolabeachresort/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a>       "
+        }
+      ]
+    }
+  }
+}
